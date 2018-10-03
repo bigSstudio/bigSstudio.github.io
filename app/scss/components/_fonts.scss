@@ -1,0 +1,47 @@
+//Bold
+@font-face {
+    font-family: 'pf_din_text_comp_probold';
+    src: url('../../assets/fonts/pfdintextcomppro-bold_35385-webfont.ttf') format('truetype'),
+         url('../../assets/fonts/pfdintextcomppro-bold_35385-webfont.woff2') format('woff2'),
+         url('../../assets/fonts/pfdintextcomppro-bold_35385-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+//Medium
+@font-face {
+    font-family: 'pf_din_text_comp_promedium';
+    src: url('../../assets/fonts/pfdintextcomppro-medium_35390-webfont.ttf') format('truetype'),
+         url('../../assets/fonts/pfdintextcomppro-medium_35390-webfont.woff2') format('woff2'),
+         url('../../assets/fonts/pfdintextcomppro-medium_35390-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+//Regular
+@font-face {
+    font-family: 'pf_din_text_comp_proregular';
+    src: url('../../assets/fonts/pfdintextcomppro-regular_35392-webfont.ttf') format('truetype'),
+         url('../../assets/fonts/pfdintextcomppro-regular_35392-webfont.woff2') format('woff2'),
+         url('../../assets/fonts/pfdintextcomppro-regular_35392-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+//Light
+@font-face {
+    font-family: 'pf_din_text_comp_prolight';
+    src: url('../../assets/fonts/pfdintextcomppro-light_35388-webfont.ttf') format('truetype'),
+         url('../../assets/fonts/pfdintextcomppro-light_35388-webfont.woff2') format('woff2'),
+         url('../../assets/fonts/pfdintextcomppro-light_35388-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+//Thin
+@font-face {
+    font-family: 'pf_din_text_comp_prothin';
+    src: url('../../assets/fonts/pfdintextcomppro-thin_35393-webfont.ttf') format('truetype'),
+         url('../../assets/fonts/pfdintextcomppro-thin_35393-webfont.woff2') format('woff2'),
+         url('../../assets/fonts/pfdintextcomppro-thin_35393-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import "abstracts/variables";

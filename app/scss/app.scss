@@ -1,0 +1,29 @@
+/*Vendor*/
+
+@import "vendor/normalize";
+
+/* Variables & Mixins */
+
+@import "abstracts/variables";
+
+/* Components */
+
+@import "components/fonts";
+@import "components/menu";
+@import "components/buttons";
+@import "components/utilities";
+@import "components/keyframes";
+
+/* Pages */
+
+@import "pages/general";
+@import "pages/main";
+@import "pages/about";
+@import "pages/services";
+@import "pages/portfolio";
+@import "pages/blog";
+@import "pages/contact";
+
+/*External projects linked to index.html*/
+
+@import "pages/thanks"

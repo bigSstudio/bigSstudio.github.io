@@ -1,0 +1,40 @@
+//Variables
+
+/*Fonts*/
+
+$font: 'pf_din_text_comp_proregular';
+$bold: 'pf_din_text_comp_probold';
+$medium: 'pf_din_text_comp_promedium';
+$light: 'pf_din_text_comp_prolight';
+$thin: 'pf_din_text_comp_prothin';
+
+
+/*Colors*/
+
+
+
+/*Transitions*/
+
+$transition: all 400ms ease-in-out;
+
+::selection {
+    // background: $background;
+    // color: $text_white;
+}
+
+::-moz-selection {
+    // background: transparentize(#333, 0.7);
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    // background-color: $primary_color;
+}
