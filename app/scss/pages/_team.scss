@@ -1,0 +1,23 @@
+.s-ss-team {
+	.s-img-icon {
+		max-width: 2.5em;
+		margin-bottom: 30px;
+		margin-top: 0;
+	}
+	h4 {
+		margin-bottom: 20px;
+	}
+	.s-se-moderator {
+		margin-bottom: 30px;
+	}
+	p {
+		color: $gray;
+		span {
+			font-family: $font;
+			color: $black;
+		}
+	}
+	img {
+		margin: 100px auto 50px;
+	}
+}

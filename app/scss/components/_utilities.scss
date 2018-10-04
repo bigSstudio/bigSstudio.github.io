@@ -1,1 +1,79 @@
-//Utilities
+img {
+	display: block;
+	margin: 0 auto;
+	max-width: 70%;
+	height: auto;
+}
+.s-u-modal-wrapper {
+	display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(255,255,255);
+    background-color: rgba(255,255,255,0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .s-u-modal {
+    	background-color: $white;
+	    padding: 20px;
+	    border: 1px solid $border;
+	    box-shadow: 0px 9.91px 12.75px 0px rgba(0,0,0,0.38);
+	    width: 50%;
+	    position: relative;
+	    .s-u-close {
+	    	color: $dark;
+		    position: absolute;
+		    top: 15px;
+		    right: 15px;
+		    font-size: 2em;
+		    font-weight: bold;
+		    transition: $transition;
+		    &:hover {
+		    	cursor: pointer;
+		    	color: $gray;
+		    }
+	    }
+	    form {
+	    	.form-group {
+	    		text-align: left;
+	    	}
+	    	label {
+	    		font-family: $light;
+	    	}
+	    	input,
+	    	select {
+	    		transition: $transition;
+	    		&:hover,
+	    		&:active,
+	    		&:focus {
+	    			outline: none;
+	    			border: 1px solid $primary_color;
+	    		}
+	    	}
+	    	.s-se-sumbit {
+	    		margin: 10px auto;
+	    	}
+	    }
+	    .s-se-thanks {
+	    	font-size: 2em;
+	    	font-family: $thin;
+	    	color: $dark;
+	    	display: none;
+	    }
+    }
+}
+@media only screen and (max-width: 768px) {
+	img {
+		max-width: 100%;
+	}
+	.s-u-modal-wrapper {
+		.s-u-modal {
+			width: 100%;
+		}
+	}
+}

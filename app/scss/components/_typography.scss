@@ -45,3 +45,73 @@
 }
 
 @import "abstracts/variables";
+
+body {
+    font-family: $thin;
+    font-size: 19px;
+    line-height: 1.2;
+    -webkit-font-smoothing: 
+    antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+h1,
+h2,
+h4,
+h5,
+p,
+span,
+a {
+    color: $black;
+    margin: 0;
+}
+h1 {
+    font-family: $thin;
+    font-size: 1.842em;
+    lin-height: 1.2;
+}
+h2 {
+    font-family: $font;
+    font-size: 2em;
+    line-height: 1.2;
+}
+h3 {
+    font-family: $thin;
+    font-size: 1.842em;
+    line-height: 1.2;
+}
+h4 {
+    font-family: $thin;
+    font-size: 1.842em;
+    line-height: 1.2;
+}
+h5 {
+    font-family: $thin;
+    font-size: 1.684em;
+    line-height: 0.8;
+}
+.lead {
+    font-family: $thin;
+    font-size: 1.947em;
+    line-height: 0.7;
+}
+p {
+    font-family: $light;
+    font-size: 1em;
+    line-height: 1.3;
+}
+li {
+    font-family: $thin;
+    font-size: 1.474em;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    list-style-image: url(../../assets/img/check.svg);
+}
+a {
+    transition: $transition;
+    &:hover,
+    &:active,
+    &:focus {
+        text-decoration: none;
+    }
+}

@@ -11,6 +11,12 @@ $thin: 'pf_din_text_comp_prothin';
 
 /*Colors*/
 
+$primary_color: #f5ce3e;
+$white: #fff;
+$black: #000;
+$dark: #231f20;
+$gray: #707070;
+$border: #b3b3b3;
 
 
 /*Transitions*/
@@ -18,12 +24,13 @@ $thin: 'pf_din_text_comp_prothin';
 $transition: all 400ms ease-in-out;
 
 ::selection {
-    // background: $background;
-    // color: $text_white;
+    background: $primary_color;
+    color: $black;
 }
 
 ::-moz-selection {
-    // background: transparentize(#333, 0.7);
+    background: $primary_color;
+    color: $black;
 }
 
 ::-webkit-scrollbar-track {
@@ -36,5 +43,5 @@ $transition: all 400ms ease-in-out;
 }
 
 ::-webkit-scrollbar-thumb {
-    // background-color: $primary_color;
+    background-color: $primary_color;
 }

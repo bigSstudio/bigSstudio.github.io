@@ -1,0 +1,36 @@
+.s-se-cta {
+	background: $primary_color;
+	padding: 15px 30px;
+	border-radius: 100px;
+	text-transform: uppercase;
+	font-family: $font;
+	font-size: 2em;
+	transition: $transition;
+	outline: none;
+	border: none;
+	-webkit-appearance: none;
+	&:hover,
+	&:active,
+	&:focus {
+		color: $white;
+		outline: none;
+	}
+}
+.s-se-sumbit {
+	background: $primary_color;
+	padding: 15px 30px;
+	border-radius: 100px;
+	text-transform: uppercase;
+	font-family: $font;
+	font-size: 1em;
+	transition: $transition;
+	outline: none;
+	border: none;
+	-webkit-appearance: none;
+	&:hover,
+	&:active,
+	&:focus {
+		color: $white;
+		outline: none;
+	}
+}
