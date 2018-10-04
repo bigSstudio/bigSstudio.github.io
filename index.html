@@ -48,26 +48,28 @@
 							oblasti primjene Zakona o PDV-u i Zakona o akcizama BiH
 						</li>
 					</ul>
-					<button id="formTrigger" class="s-se-cta">Prijavi se</button>
+					<a href="#form" class="s-se-cta">
+						Prijavi se
+					</a>
 
 					<div id="form" class="s-u-modal-wrapper">
 						<div class="s-u-modal">
 						    <span class="s-u-close">&times;</span>
-						    <form action="#" class="s-c-form">
+						    <form class="s-c-form">
 						    	<h3>
 						    		Prijavite se za Seminar
 						    	</h3>
 						    	<div class="form-group">
 					    			<label for="name">Ime i prezime</label>
-							    	<input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Unesite Vaše ime i prezime">
+							    	<input type="text" class="form-control" id="name" aria-describedby="name" placeholder="Unesite Vaše ime i prezime" required>
 							    </div>
 					    		<div class="form-group">
 					    			<label for="name">JMB</label>
-							    	<input type="number" class="form-control" id="jmb" aria-describedby="jmb" placeholder="Unesite Vaš JMB">
+							    	<input type="number" class="form-control" id="jmb" aria-describedby="jmb" placeholder="Unesite Vaš JMB" required>
 					    		</div>
 								<div class="form-group">
 						    		<label for="city">Grad</label>
-								    <select id="city" class="form-control">
+								    <select id="city" class="form-control" required>
 								        <option value="" selected>Odaberite grad</option>
 								        <option value="Banja Luka">Banja Luka</option>
 								        <option value="Sarajevo">Sarajevo</option>
@@ -212,7 +214,6 @@
 		</footer>
 
 		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-
 		<script src="/assets/js/main.js"></script>   
 	</body>
 </html>
