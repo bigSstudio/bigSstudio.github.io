@@ -32,7 +32,8 @@
  - [x] Pixel perfect,
  - [x] Stripped of unnecessary .css and .js files for fast loading, the ones included are mainly for demonstration purposes,
  - [x] All .css, including fonts is cross browser compatible and has support for all major modern browsers up to 5 last versions.
- - [x] Contact form included in a form of modal, triggered by clicking on a "Prijavi se" Call-To-Action, and it contains all fileds required: Full name, UIN, Multiple city choice dropdown, and it's styled to match the rest of the site perfectly. Also, modal, and form inside are completely responsive, as in first check mark.
+ - [x] Contact form included in a form of modal, triggered by clicking on a "Prijavi se" Call-To-Action, and it contains all fileds required: Full name, UIN, Multiple city choice dropdown, thank you message and it's styled to match the rest of the site perfectly. Also, modal, and form inside are completely responsive, as in first check mark.
+Form is not functional, and "Thank you" message can be seen clicking on "Prijavi se" submit button regardless is the form filled properly or not.
 
 
 Website is pushed to GitHub for versioning, and hosted on github pages.
