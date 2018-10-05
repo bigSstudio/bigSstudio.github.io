@@ -15,7 +15,8 @@
  - AI document analysis and defining sections and elements,
  - SVG, typography and colors export,
  - Coding static, semantic HTML,
- - Writing modular SCSS (following best practices and naming conventions),
+ - Writing modular SCSS (following best practices and naming conventions:
+  -a-b/(c)-uvw-xyz - first letter is abbr for project name, second one/two letters are type of component (section, subsection, component, utility, styled element, and last one/two words are name of the element),
  - Adding quick jQuery script for modal.
 
 ## Details:
